@@ -2,18 +2,24 @@ body{
     background-color: #061c25;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #main{
     margin-right:17%;
 }
+
 .container{
     position: absolute;
 }
+
 #button{
     background-color: transparent;
     border: 2px solid gold;
     color: white;
-    font-size:30px
+    font-size:30px;
+    position: relative;
+    z-index: 1;
 }
+
 .text1{
     display: block;
     position: relative;
@@ -23,44 +29,55 @@ body{
     text-align: center;
     font-size:100px;
 }
+
 .span{
     font-size:40px;
 }
+
 .img{
     text-align: center;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
+
 h1{
     color: white;
     font-size:100px;
     margin: 0;
 }
+
 .habilidades{
     border:1px solid gold;
     padding:1px;
     float:left;
     margin-right: 1%;
 }
+
 .lh{
     bottom: 1px;
 }
+
 .h{
     height: 64px;
     width: 100%;
     float:left;
     margin-bottom: 1%;
 }
+
 div p{
     margin: 0px;
     color: white;
 }
+
 .kn{
     font-size: 10px;
 }
+
 .hn{
     margin-top: 5px;
     font-size:16px;
 }
+
 .hr{
     font-size:12px;
 }
