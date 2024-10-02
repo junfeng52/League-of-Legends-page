@@ -1,60 +1,69 @@
 <html>
 
 <head>
-    <link rel='stylesheet' href='../css/Chamstyle.css'>
+	<title>AurelionSol</title>
+	<link rel="stylesheet" href="../css/Chamstyle.css">
 </head>
 
-<body><button id='button' type='button' onclick='window.location.href="../main.html"'>Atras</button>
-    <div id='main'>
-        <div class='container'>
-            <div class='img'><img src='img/AurelionSol_0.jpg'></div>
-            <div class='text1'>
-<span class='span'>THE STAR FORGER</span><br><b>AURELION SOL</b></br></div>
-            <div>
-                <h1>Habilidades</h1>
-                <div class='h'>
-                    <div class='habilidades'><img src='img/AurelionSol_Passive.png'></div>
-                    <div class='lh'>
-                        <p class='kn'>PASIVA</p>
-                        <p class='hn'>CENTER OF THE UNIVERSE</p>
-                        <p class='hr'>Stars orbit Aurelion Sol, dealing magic damage when they hit an enemy.</p>
-                    </div>
-                </div>
-                <div class='h'>
-                    <div class='habilidades'><img src='img/AurelionSolQ.png'></div>
-                    <div class='lh'>
-                        <p class='kn'>Q</p>
-                        <p class='hn'>STARSURGE</p>
-                        <p class='hr'>CENTER OF THE UNIVERSE</p>
-                    </div>
-                </div>
-                <div class='h'>
-                    <div class='habilidades'><img src='img/AurelionSolW.png'></div>
-                    <div class='lh'>
-                        <p class='kn'>W</p>
-                        <p class='hn'>CELESTIAL EXPANSION</p>
-                        <p class='hr'>Aurelion Sol pushes his stars farther out, increasing their damage and speed.</p>
-                    </div>
-                </div>
-                <div class='h'>
-                    <div class='habilidades'><img src='img/AurelionSolE.png'></div>
-                    <div class='lh'>
-                        <p class='kn'>E</p>
-                        <p class='hn'>COMET OF LEGEND</p>
-                        <p class='hr'>Aurelion Sol takes off flying for a long distance.</p>
-                    </div>
-                </div>
-                <div class='h'>
-                    <div class='habilidades'><img src='img/AurelionSolR.png'></div>
-                    <div class='lh'>
-                        <p class='kn'>R</p>
-                        <p class='hn'>VOICE OF LIGHT</p>
-                        <p class='hr'>Aurelion Sol projects a blast of pure starfire, damaging and slowing all enemies
-                            caught in it and knocking nearby enemies back to a safer distance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<body>
+	<button id="button" type="button" onclick="window.location.href='../index.html'">Atras</button>
+	<div id="main">
+		<div class="container">
+			<div class="img"><img src="img/aurelionsol/AurelionSol_0.jpg"></div>
+			<div class="text1">
+				<span class="span">THE STAR FORGER</span><br><b>AURELIONSOL</b></br>
+			</div>
+
+			<div>
+				<h1>ABILITIES</h1>
+
+				<div class="h">
+					<div class="habilidades"><img src="img/aurelionsol/AurelionSol_P.png"></div>
+					<div class="lh">
+						<p class="kn">Pasive</p>
+						<p class="hn">Cosmic Creator</p>
+						<p class="hr">Aurelion Sol's damaging Abilities break down enemies into stacks of <font color='#3458eb'>Stardust</font>, which permanently improves each of his abilities. </p>
+					</div>
+				</div>
+
+				<div class="h">
+					<div class="habilidades"><img src="img/aurelionsol/AurelionSol_Q.png"></div>
+					<div class="lh">
+						<p class="kn">Ability Q</p>
+						<p class="hn">Breath of Light</p>
+						<p class="hr">Aurelion Sol channels his dragon breath for a few seconds, damaging the first enemy hit and splashing reduced damage onto nearby enemies. Each second the breath is channeled directly at an enemy will deal bonus damage, which is improved by the amount of Stardust that's been collected. This ability collects Stardust if the target is a champion.</p>
+					</div>
+				</div>
+
+				<div class="h">
+					<div class="habilidades"><img src="img/aurelionsol/AurelionSol_W.png"></div>
+					<div class="lh">
+						<p class="kn">Ability W</p>
+						<p class="hn">Astral Flight</p>
+						<p class="hr">Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities. Breath of Light no longer has a cooldown or maximum channel duration and deals increased damage while flying.<br><br>Astral Flight's remaining cooldown is reduced whenever an enemy champion dies after being recently damaged by Aurelion Sol.<br><br>Stardust increases Astral Flight's maximum range.</p>
+					</div>
+				</div>
+
+				<div class="h">
+					<div class="habilidades"><img src="img/aurelionsol/AurelionSol_E.png"></div>
+					<div class="lh">
+						<p class="kn">Ability E</p>
+						<p class="hn">Singularity</p>
+						<p class="hr">Aurelion Sol summons a black hole, damaging enemies and slowly pulling them toward its center. This ability grants Stardust each time an enemy dies within the black hole and for each second an enemy champion is caught inside it. The center of the black hole executes enemies who are below a certain percentage of their maximum health. Stardust increases Singularity's area as well as the execution threshold.</p>
+					</div>
+				</div>
+
+				<div class="h">
+					<div class="habilidades"><img src="img/aurelionsol/AurelionSol_R.png"></div>
+					<div class="lh">
+						<p class="kn">Ability R</p>
+						<p class="hn">Falling Star / The Skies Descend</p>
+						<p class="hr">Falling Star: Aurelion Sol crashes a star into the earth. This impact deals magic damage and stuns enemies while also granting Stardust for each enemy champion it hits. Gathering enough Stardust transforms Aurelion Sol's next Falling Star into The Skies Descend.<br><br>The Skies Descend: Aurelion Sol drags a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits. Stardust increases the impact area of both Falling Star and The Skies Descend.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>

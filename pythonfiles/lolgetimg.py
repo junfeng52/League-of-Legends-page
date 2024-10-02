@@ -25,7 +25,6 @@ def searchchap(chname, url):
 chpages = requests.get("https://www.leagueoflegends.com/es-es/champions/").text
 urls= sorted(list(set(re.findall(r"/es-es/champions/[A-Za-z_-]+", chpages))))
 chnames = [i.split("/")[-1] for i in urls]
-print(urls)
 
 for chn, link in zip(chnames, urls):
     searchchap(chn ,f"https://www.leagueoflegends.com{link}")
